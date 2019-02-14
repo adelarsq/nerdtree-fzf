@@ -8,7 +8,7 @@ let s:haskdeinit = system("ps -e") =~ 'kdeinit'
 let s:hasdarwin = system("uname -s") =~ 'Darwin'
 
 call NERDTreeAddMenuItem({
-      \ 'text': 'fzf search (/)',
+      \ 'text': 'f(z)f search',
       \ 'shortcut': 'z',
       \ 'callback': 'NERDTreeFzfSearch' })
 
@@ -24,4 +24,3 @@ function! NERDTreeFzfSearch()
   let &shellslash=l:oldssl
   redraw!
 endfunction
-
