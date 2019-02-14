@@ -1,5 +1,4 @@
-
-NerdTree Plugin for search with fzf
+" NerdTree Plugin for search with fzf
 if exists("g:loaded_nerdtree_fzf_menuitem")
   finish
 endif
